@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Chat</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Whatsapp mini</h1>
+    <h2>Edit Chat</h2>
+    <form class="edit" method="POST" action="/chats/<%= foundChat._id %>?_method=PUT">
+        <label for="msg"><b>Message sent : </b></label><br><br>
+        <textarea name="msg" rows="1"><%= foundChat.msg %></textarea><br><br>
+        <button>Done</button>
+    </form>
+</body>
+</html>

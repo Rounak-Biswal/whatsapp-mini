@@ -1,0 +1,94 @@
+body{
+    margin: 20px;
+    background-color: rgb(62, 61, 61);
+}
+
+h1{
+    color: rgb(9, 175, 9);
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+/* for index.ejs */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chatBox{
+    position: relative;
+    background-color: aliceblue;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    display: inline-block;
+    box-shadow: 10px 10px 20px black;
+}
+
+.add_btn{
+    transform: scale(1.5);
+    padding: 5px;
+    color: white;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+ .edit_btn{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: black;
+ }
+ .delete_btn{
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    color: black;
+ }
+/* for new.ejs */
+.form{
+    background-color: aliceblue;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 20px black;
+}
+.form > form > input,textarea,button{
+    width: 30%;
+}
+:placeholder-shown{
+    text-align: center;
+}
+.form > form > button{
+    background-color: dodgerblue;
+    color: white;
+}
+
+/*for edit.ejs*/
+.edit{
+    background-color: aliceblue;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 20px black;
+}
+.edit > input,textarea,button{
+    width: 40%;
+}
+.edit > button{
+    background-color: dodgerblue;
+    color: white;
+}
